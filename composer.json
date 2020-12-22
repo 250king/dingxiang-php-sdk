@@ -1,7 +1,7 @@
 {
     "name": "250king/dingxiang-php-sdk",
     "description": "Dingxiang PHP SDK",
-    "type": "composer-plugin",
+    "type": "library",
     "license": "Apache-2.0",
     "authors": [
         {
@@ -12,12 +12,9 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "dingxiang\\CaptchaClient\\": "src",
-            "dingxiang\\CtuClient\\": "src",
-            "dingxiang\\DeviceFingerprintHandle\\": "src"
+            "dingxiang\\CaptchaClient\\": "src/dingxiang",
+            "dingxiang\\CtuClient\\": "src/dingxiang",
+            "dingxiang\\DeviceFingerprintHandle\\": "src/dingxiang"
         }
-    },
-    "require": {
-        "php": ">=7.0"
     }
 }
