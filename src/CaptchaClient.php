@@ -6,7 +6,8 @@
  * Date: 2017/8/24
  * Time: 21:05
  */
-namespace dingxiang\CaptchaClient;
+
+namespace dingxiang;
 
 include("./model/CaptchaResponse.php");
 

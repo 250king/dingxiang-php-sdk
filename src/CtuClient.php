@@ -6,7 +6,7 @@
  * Time: 下午1:29
  */
 
-namespace dingxiang\CtuClient;
+namespace dingxiang;
 
 include("./model/CtuRequest.php");
 include("./model/CtuResponse.php");
