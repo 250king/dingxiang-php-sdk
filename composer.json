@@ -13,9 +13,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "dingxiang\\CaptchaClient\\": "src",
-            "dingxiang\\CtuClient\\": "src",
-            "dingxiang\\DeviceFingerprintHandle\\": "src"
+            "dingxiang": "src"
         }
     }
 }
