@@ -8,9 +8,9 @@
 
 namespace dingxiang;
 
-include("./model/CtuRequest.php");
-include("./model/CtuResponse.php");
-include("./util/SignUtil.php");
+include(__DIR__."./model/CtuRequest.php");
+include(__DIR__."./model/CtuResponse.php");
+include(__DIR__."./util/SignUtil.php");
 
 class CtuClient
 {
