@@ -6,11 +6,14 @@
  * Time: 下午1:29
  */
 
-namespace dingxiang;
+namespace Dingxiang;
 
 include(__DIR__."/model/CtuRequest.php");
 include(__DIR__."/model/CtuResponse.php");
 include(__DIR__."/util/SignUtil.php");
+
+use SignUtil;
+use CtuResponse;
 
 class CtuClient
 {

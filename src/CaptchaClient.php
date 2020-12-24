@@ -7,9 +7,11 @@
  * Time: 21:05
  */
 
-namespace dingxiang;
+namespace Dingxiang;
 
 include(__DIR__."/model/CaptchaResponse.php");
+
+use CaptchaResponse;
 
 class CaptchaClient
 {

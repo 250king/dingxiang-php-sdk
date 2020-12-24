@@ -6,7 +6,7 @@
  * Time: 下午1:39
  */
 
-namespace dingxiang;
+namespace Dingxiang;
 
 class DeviceFingerprintHandle
 {
