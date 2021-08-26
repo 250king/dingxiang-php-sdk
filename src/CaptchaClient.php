@@ -38,7 +38,7 @@ class CaptchaClient
         $this->captchaUrl = $captchaUrl;
     }
 
-    public function verifyToken($token)
+    public function verifyToken($token, $ip="")
     {
         $captchaResponse = new CaptchaResponse(false, "");
 
@@ -54,7 +54,7 @@ class CaptchaClient
         }
         $sign = md5($this->appSecret.$params[0].$this->appSecret);
 
-        $requestUrl = $this->captchaUrl . "?appKey=" . $this->appId . "&constId=" . $constId . "&token=" . $params[0]."&sign=".$sign;
+        $requestUrl = $this->captchaUrl . "?appKey=" . $this->appId . "&constId=" . $constId . "&token=" . $params[0]."&sign=".$sign . "&ip=" . $ip;
 
         $httpResponse = $this->do_request($requestUrl, $this->timeout, $captchaResponse);
     
